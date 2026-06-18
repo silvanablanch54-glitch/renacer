@@ -413,7 +413,7 @@ video {
   position: relative;
   padding-top: calc(var(--header-height) + 4rem);
   padding-bottom: 8rem;
-  background: linear-gradient(180deg, rgba(232, 228, 240, 0.6) 0%, rgba(255, 61, 254, 0.05) 50%, #FFFFFF 100%);
+  background: linear-gradient(180deg, rgba(232, 228, 240, 0.4) 0%, rgba(255, 61, 254, 0.03) 50%, transparent 100%);
 }
 
 .hero-container {
