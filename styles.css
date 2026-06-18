@@ -20,8 +20,8 @@
   --clr-white: #FFFFFF;
 
   /* Glassmorphism */
-  --glass-bg: rgba(255, 255, 255, 0.85);
-  --glass-border: rgba(255, 255, 255, 0.4);
+  --glass-bg: rgba(248, 245, 255, 0.78);
+  --glass-border: rgba(168, 94, 229, 0.18);
   --glass-border-vibrant: rgba(255, 61, 254, 0.3);
   --shadow-soft: 0 15px 45px rgba(0, 0, 0, 0.08);
   --shadow-card: 0 12px 35px rgba(0, 162, 241, 0.12);
@@ -71,7 +71,8 @@ html {
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background: #8c8c8c;
+  background: linear-gradient(160deg, #F0EEFE 0%, #EAE3FC 40%, #F2EAFF 70%, #EDE6FF 100%);
+  background-attachment: fixed;
   color: var(--clr-text);
   line-height: 1.7;
   overflow-x: hidden;
